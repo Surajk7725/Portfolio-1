@@ -1,9 +1,12 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
+  eslint: false,
   images: {
-    loader: "default",
-    domains: ["example.com"], // Add your domain here
-    disableStaticImages: true, // This disables statically optimizing images
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**",
+      },
+    ],
   },
 };
 
