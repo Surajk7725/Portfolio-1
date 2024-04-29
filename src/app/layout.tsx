@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: NonNullable<React.ReactNode>;
 }) {
   return (
     <html lang="en">
@@ -33,9 +33,7 @@ export default function RootLayout({
         <link rel="shortcut icon" href="/s-logo.png" type="image/png" />
       </head>
       <body className={roboto.className}>
-        <Layout>
-          {children}
-        </Layout>
+        <Layout>{children}</Layout>
       </body>
     </html>
   );

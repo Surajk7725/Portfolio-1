@@ -342,15 +342,15 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 
 /***/ }),
 
-/***/ 8780:
+/***/ 4534:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5124));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7118));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5124));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6653));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8149));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 977));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7833));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 977));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6264))
 
 /***/ }),
@@ -1538,12 +1538,12 @@ function Footer() {
 // EXTERNAL MODULE: external "next/dist/compiled/react"
 var react_ = __webpack_require__(8038);
 ;// CONCATENATED MODULE: ./src/components/layout.tsx
-/* __next_internal_client_entry_do_not_use__ Layout auto */ 
+
 
 
 function Layout({ children  }) {
     return /*#__PURE__*/ jsx_runtime_.jsx(react.ThemeProvider, {
-        children: this.props.children
+        children: children
     });
 }
 /* harmony default export */ const layout = ((/* unused pure expression or super */ null && (Layout)));
