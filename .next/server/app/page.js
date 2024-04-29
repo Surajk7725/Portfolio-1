@@ -342,15 +342,15 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 
 /***/ }),
 
-/***/ 4534:
+/***/ 8780:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7118));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5124));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7118));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6653));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8149));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7833));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 977));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7833));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6264))
 
 /***/ }),
@@ -1544,7 +1544,7 @@ var react_ = __webpack_require__(8038);
 function Layout({ children  }) {
     return /*#__PURE__*/ jsx_runtime_.jsx(react.ThemeProvider, {
         children: children
-    });
+    }, "layout");
 }
 /* harmony default export */ const layout = ((/* unused pure expression or super */ null && (Layout)));
 
