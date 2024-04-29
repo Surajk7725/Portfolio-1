@@ -2,6 +2,7 @@
 import { Typography } from "@material-tailwind/react";
 import Image from "next/image";
 
+
 export default function AboutUs() {
   return (
     <section className="py-16 px-8 flex items-center justify-center">
@@ -16,16 +17,16 @@ export default function AboutUs() {
         />
         </div>
         <div className="md:w-1/2 mt-8 md:mt-0">
-          <Typography variant="h2" color="blue-gray" className="mb-4">
+          <Typography variant="h2" color="blue-gray" className="mb-4"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
             <center>About Me</center>
           </Typography>
-          <Typography variant="h4" color="blue-gray" className="mb-5">
+          <Typography variant="h4" color="blue-gray" className="mb-5"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
             I&apos;m Suraj Kumar Tellakula
           </Typography>
-          <Typography variant="body1" className="mb-6">
+          <Typography variant="h6"className="mb-6" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
           🎓 An aspiring computer science professional, excelling in academics and extracurriculars. Aiming to cultivate practical work experience, leveraging strong technical skills in software applications 💻, adept at tackling challenging tasks 💪, and possessing exceptional time management ⏰ and communication abilities 🗣️. Known for a disciplined yet empathetic approach, adept at analyzing and resolving complex issues 🤝🔍.
           </Typography>
-          <Typography variant="body1" className="mb-6">
+          <Typography variant="h6" className="mb-6" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
           I excel in Java, particularly in crafting efficient data structures. 🚀 With a balanced proficiency in various web development frameworks, I am adept at creating dynamic web applications. 💻 Additionally, I am highly skilled in Python, leveraging its power for data science and analysis as a dedicated student in this field. 🐍
         </Typography>
         </div>

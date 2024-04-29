@@ -59,13 +59,12 @@ export function Projects() {
   return (
     <section className="py-28 px-8">
       <div className="container mx-auto mb-20 text-center">
-        <Typography variant="h2" color="blue-gray" className="mb-4">
+        <Typography variant="h2" color="blue-gray" className="mb-4"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
           My Projects
         </Typography>
         <Typography
           variant="lead"
-          className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-6/12"
-        >
+          className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-6/12"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}        >
           Skilled in web development, Python, and ML, I create captivating digital solutions. 
           Need a mobile app or website upgrade? I&apos;m here to turn your digital
           dreams into reality.
@@ -79,11 +78,10 @@ export function Projects() {
       <div className="mt-16" />
       <center>
       <Button
-  variant="text"
-  color="gray"
-  className="flex items-center gap-2"
-  onClick={() => window.open('https://github.com/Surajk7725?tab=repositories', '_blank')}
->
+          variant="text"
+          color="gray"
+          className="flex items-center gap-2"
+          onClick={() => window.open('https://github.com/Surajk7725?tab=repositories', '_blank')}  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
   view more
   <ArrowRightIcon
     strokeWidth={3}
