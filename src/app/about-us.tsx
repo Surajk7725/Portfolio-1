@@ -9,6 +9,7 @@ export default function AboutUs() {
         <div className="md:w-1/2 md:mr-8">
         <Image
             src="/suraj.jpeg"
+            alt="Picture of Suraj"
             width={1000}
             height={1000}
             className="h-[24rem] w-full rounded-xl object-contain"
